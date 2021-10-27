@@ -2,11 +2,13 @@
 precision mediump float;
 #endif
 
-uniform float u_time;
 
+
+// intro to the course
+// intro to the book of shaders, to the graphic pipelines and to fragment shaders
 // how to change color? how is color represented?
 
+// explain the main function
 void main(){
-    gl_FragColor=vec4(.9137,.5412,.5412,1.);
-    
+    gl_FragColor=vec4(1.0, 0.0, 0.0, 1.0);
 }
