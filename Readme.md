@@ -23,6 +23,10 @@ On linux, control shift p. Launch the gsls-canvas, then set a custom shortuct. I
 
 [Shadertoy](http://www.shadertoy.com/)
 
+### Lesson 1
+Intro to fragment shaders, variables, swizzling, uniforms, sin wave,coordinate system, write your first function.
+
+
 <!-- 
 #### Resources About raymarching.
 
