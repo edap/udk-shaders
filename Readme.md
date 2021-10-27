@@ -23,12 +23,12 @@ On linux, control shift p. Launch the gsls-canvas, then set a custom shortuct. I
 
 [Shadertoy](http://www.shadertoy.com/)
 
-
-About raymarching.
+<!-- 
+#### Resources About raymarching.
 
 [Ray Marching (in french)](https://www.youtube.com/watch?v=s6t0mJsgUKw). You can find a trascript of this video with code and images [here](https://github.com/edap/edap.github.com/tree/master/shaders/ray-marching-tutorial)
 
 [Ray Marching workshop](https://github.com/ajweeks/RaymarchingWorkshop)
 
-[Ray Marching and sdf](http://jamie-wong.com/2016/07/15/ray-marching-signed-distance-functions/)
+[Ray Marching and sdf](http://jamie-wong.com/2016/07/15/ray-marching-signed-distance-functions/) -->
 
