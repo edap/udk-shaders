@@ -26,6 +26,10 @@ On linux, control shift p. Launch the gsls-canvas, then set a custom shortuct. I
 ### Lesson 1
 Intro to fragment shaders, variables, swizzling, uniforms, sin wave,coordinate system, write your first function.
 
+### Lesson 2
+
+Fix screen proportion, improve your square function, pass the position parameter to it. Create a library of functions that you can reuse. create a `circle` function using `lenght`.
+
 
 <!-- 
 #### Resources About raymarching.
