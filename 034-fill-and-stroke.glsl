@@ -2,29 +2,42 @@
 precision mediump float;
 #endif
 
+// can I use some of the function that we have just learned, to make the circle smoother?
 uniform vec2 u_resolution;
-
-// 2 return a float instead of a bool. Why are float better?
-// they are more flexible and they allow us to do a lot of things more.
-// bool myCircle(vec2 pos, float radius){
-//     float d = length(pos) -radius;
-//     // 1 try to change
-//     //return d > 0.5;
-//     return d < 0.0;
-// }
 
 float myCircle(vec2 pos, float radius){
     return length(pos) -radius;
+}
+
+float fill(float dist){
+  // gross
+  //return step(0.1, dist);
+  // fine
+  return smoothstep(-0.1, 0.1, dist);
+}
+
+// pass a thikness parameter
+float fill(float dist, float size){
+  return smoothstep(-size, +size, dist);
+}
+
+float stroke(float x, float size, float t) {
+    float a = smoothstep(-size, +size, x+t *0.5);
+    float b = smoothstep(-size, +size, x-t *0.5);
+    return a - b;
 }
 
 void main(){
     vec2 coord = 2.0 * gl_FragCoord.xy / u_resolution.xy - 1.0;
     coord.x *= u_resolution.x / u_resolution.y;
 
-    // 1 introduce the mix function
+    float circle = myCircle(coord, 0.3);
+    //circle = fill(circle);
+    //circle = stroke(circle, 0.01, 0.1);
+
     vec4 colorA = vec4(1.0, 1.0, 1.0, 1.0);
     vec4 colorB = vec4(1.0, 0.0, 0.0, 1.0);
-    vec4 color = mix(colorA, colorB, myCircle(coord, 0.5));
+    vec4 color = mix(colorA, colorB, circle);
 
 
     gl_FragColor=color;

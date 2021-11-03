@@ -28,7 +28,12 @@ Intro to fragment shaders, variables, swizzling, uniforms, sin wave,coordinate s
 
 ### Lesson 2
 
-Fix screen proportion, improve your square function, pass the position parameter to it. Create a library of functions that you can reuse. create a `circle` function using `lenght`.
+Fix screen proportion, improve your square function, pass the position parameter to it.Pass the size parameter. Create a library of functions that you can reuse. create a `circle` function using `lenght`. Merge two circles.
+
+### Lesson 3
+Intro to step and smoothstep. Use them to draw a line. Explore built-in [functions](https://thebookofshaders.com/05/).Add a function `fill`, and `stroke`. Use them to draw the circles
+Put the merge function into a new file in the libs folder. Add the new boolean functions `merge`, `intersect`, `smoothMerge`, `subtract`. Try to use them with two circles
+Add new 2d primitives to your `2dshapes` file. Choose 4 of them from [here](https://www.iquilezles.org/www/articles/distfunctions2d/distfunctions2d.htm). 
 
 
 <!-- 

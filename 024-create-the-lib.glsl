@@ -3,7 +3,7 @@ precision mediump float;
 #endif
 
 // create a lib folder and place a box function in it
-#include "./libs/box.glsl"
+#include "./libs/2dshapes.glsl"
 uniform vec2 u_resolution;
 
 
@@ -12,7 +12,7 @@ void main(){
     coord.x *= u_resolution.x / u_resolution.y;
 
     vec4 color;
-    if(rect(coord, vec2(0.1, 0.44) )){
+    if(box(coord, vec2(0.1, 0.44) )){
     
         color = vec4(1.0, 1.0, 1.0, 1.0);
     }else{

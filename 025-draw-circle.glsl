@@ -6,9 +6,8 @@ uniform vec2 u_resolution;
 
 
 bool myCircle(vec2 pos, float radius){
+    // 1 explain what length does
     float d = length(pos) * 2.0 -radius;
-    // 1 try to change
-    //return d > 0.5;
     return d < 0.0;
 }
 
