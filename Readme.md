@@ -33,7 +33,10 @@ Fix screen proportion, improve your square function, pass the position parameter
 ### Lesson 3 (10/11/2021)
 Intro to step and smoothstep. Use them to draw a line. Explore built-in [functions](https://thebookofshaders.com/05/).Add a function `fill`, and `stroke`. Use them to draw the circles
 Put the merge function into a new file in the libs folder. Add the new boolean functions `merge`, `intersect`, `smoothMerge`, `subtract`. Try to use them with two circles
-Add new 2d primitives to your `2dshapes` file. Choose 4 of them from [here](https://www.iquilezles.org/www/articles/distfunctions2d/distfunctions2d.htm). 
+Add new 2d primitives to your `2dshapes` file. Choose 4 of them from [here](https://www.iquilezles.org/www/articles/distfunctions2d/distfunctions2d.htm).
+
+### Lesson 4 (17/11/2021)
+Intro to [matrices](https://thebookofshaders.com/08/). Move the coordinate system to move things, deform the coordinate system to deform things.
 
 
 <!-- 
