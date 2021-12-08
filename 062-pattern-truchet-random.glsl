@@ -33,34 +33,28 @@ void main(void){
     // 6) Animate
     // uv += u_time * 0.3;
     uv*=8.;
-    vec2 gv=fract(uv)-.5;
-
     // 2) each cell has now an id
     vec2 id=floor(uv);
+    uv=fract(uv)-.5;
 
     // 3) we can use the id to give a random value to each cell.
     float n=hash(id);// random between 0 and 1
 
     // 5) random flip the x direction only if a condition is match
     if(n<.5){
-        gv.x*=-1.;
+        uv.x*=-1.;
     };
 
     // 4) Try to see what happens if you flip the x direction
-    //gv.x *= -1.;
+    //uv.x *= -1.;
 
     float width=.25;
     // 1) draw something. Possible something that is not simmetric
-    float d=myShape(gv);
+    float d=myShape(uv);
 
     float mask=d-width;
     mask=smoothstep(.01,-.01,mask);
 
-    // this time we are not uing mix, we are simply adding white to the black bg.
-    col+=mask;
-    //col.rg += id;
-    // outline
-    //if(gv.x > 0.48 || gv.y > 0.48) col = vec3(1.,0.,0.);
-
+    col = mix(col, vec3(1.), mask);
     gl_FragColor=vec4(sqrt(col),1.);
 }
