@@ -41,6 +41,25 @@ Intro to [matrices](https://thebookofshaders.com/08/). Move the coordinate syste
 ### Lesson 5 (24/11/2021)
 Intro to [patterns](https://thebookofshaders.com/09/). Deform the coordinate system to deform things.
 
+### Lesson 6 (7/12/2021)
+Truchet patterns and multiple layers patterns.
+
+
+### Lesson 7 (10/12/2021)
+Load images.
+In the root of your folder, create a folder called "textures", and put an image, like "first.jpg" in it.
+Go to File -> Preference ->Settings. Click on the tab "Workspace", then click on "extensions". Find the extension "glsl-canvas". Scroll down to "textures", click on "edit in settings.json". Edit the file as follow:
+
+```
+{
+    "glsl-canvas.textures": {
+        "0": "./texture/first.jpg",      
+    }
+}
+```
+
+Now you are ready to use this image in the sketch. Have a look at `070-texture.glsl`.
+
 
 
 <!-- 
