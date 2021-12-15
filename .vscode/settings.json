@@ -1,5 +1,6 @@
 {
     "glsl-canvas.textures": {
-        "0": "./textures/first.jpg",    
+        "0": "./textures/first.jpg",
+        "1": "./textures/second.png",
     }
 }
