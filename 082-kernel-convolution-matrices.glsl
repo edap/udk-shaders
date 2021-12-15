@@ -9,6 +9,12 @@ uniform vec2 u_tex0Resolution;
 
 varying vec2 v_texcoord;
 
+//https://webglfundamentals.org/webgl/lessons/webgl-image-processing.html
+// https://www.taylorpetrick.com/blog/post/convolution-part1
+// https://github.com/Sophia-Gold/WebGL-Convolution-Shaders/blob/master/convolution.glsl.js
+// https://codepen.io/jsnda/pen/eGYJPR
+// https://www.turais.de/using-shaders-image-post-processing-with-convolution/
+
 // A "convolution" can be defined as a simple operation for which the final color of a pixel depends on its neighbour.
 // let's start with a simple example.
 // let's say that the result of the fragment shader (meaning, the value of gl_FragColor)
