@@ -18,7 +18,13 @@ varying vec2 v_texcoord;
 
 
 void main(){
+    // open the image with an image editor and check the size of your image.
     vec2 texture_size = vec2(730.0, 730.0);
+
+    // What if we want to do image processing that actually looks at other pixels?
+    // Since WebGL references textures in texture coordinates which go from 0.0 to 1.0
+    // then we can calculate how much to move for 1 pixel with the
+    // simple math step_size = 1.0 / textureSize.
     vec2 step_size = vec2(1.0, 1.0) / texture_size;
     gl_FragColor = (
         texture2D(u_tex0, v_texcoord) +
