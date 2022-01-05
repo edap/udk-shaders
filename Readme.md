@@ -60,7 +60,33 @@ Go to File -> Preference ->Settings. Click on the tab "Workspace", then click on
 
 Now you are ready to use this image in the sketch. Have a look at `070-texture.glsl`.
 
+### Lesson (5/01/2022)
 
+Kernel convolutions. Files 08*.
+
+### Lesson (12/01/2022)
+
+Random and noise
+
+### Lesson (19/01/2022)
+
+Cellular noise
+
+### Lesson (26/01/2022)
+
+Feedback buffer
+
+### Lesson (02/02/2022)
+
+Fractals
+
+### Lesson (09/02/2022)
+
+Reaction diffusion or cellular automata
+
+### Lesson (16/02/2022)
+
+Raymarching
 
 <!-- 
 #### Resources About raymarching.
