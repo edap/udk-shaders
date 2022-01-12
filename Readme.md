@@ -66,11 +66,11 @@ Kernel convolutions. Files 08*.
 
 ### Lesson (12/01/2022)
 
-Random and noise
+Random. Intro to Pixelspirit and its library.
 
 ### Lesson (19/01/2022)
 
-Cellular noise
+Noise and Cellular noise
 
 ### Lesson (26/01/2022)
 
