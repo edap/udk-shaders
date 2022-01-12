@@ -25,7 +25,8 @@ void main(){
     // Uncomment to see the subdivided grid
     //color = vec3(fpos,0.0);
 
-    // exercise, can you use the random id tick to introduce randomness in a pattern?
-
+    // exercise,
+    // 1 can you use the random id tick to introduce randomness in a pattern?
+    // 2 can you think about a sketch that uses random but more then 2 colors?
     gl_FragColor=vec4(vec3(color), 1.0);
 }
