@@ -7,12 +7,7 @@ precision mediump float;
 uniform vec2 u_resolution;
 uniform float u_time;
 
-// 4 lets define a random function that takes a vec2 as input
-float rand (vec2 st) {
-    return fract(sin(dot(st.xy,
-                         vec2(12.9898,78.233)))*
-        43758.5453123);
-}
+
 
 void main(){
     //vec2 mouse = u_mouse.xy / u_resolution.xy
