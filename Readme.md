@@ -110,6 +110,8 @@ Noise and Cellular noise
 
 ### Lesson 11 (26/01/2022)
 
+[CGT](https://ubu.com/film/ctg_computer.html)
+
 Feedback buffer
 
 ### Lesson 12 (02/02/2022)
