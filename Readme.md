@@ -9,7 +9,7 @@
 
 Run ⌘ ⇧ P on mac os, ctrl ⇧ P on windows. Then Then type Show glslCanvas. Click on the icon setting to set up a shortcut.
 
-On linux, control shift p. Launch the gsls-canvas, then set a custom shortuct. I use win-p
+On linux, control shift p. Launch the gsls-canvas, then set a custom shortuct. I use alt g
 
 ### 
 
