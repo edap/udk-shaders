@@ -100,17 +100,22 @@ Intro to Norman McLaren
 
 ### Lesson 10 (19/01/2022)
 
+[CGT](https://ubu.com/film/ctg_computer.html)
+[CGI on eai.org](https://www.eai.org/artists/ctg-computer-technique-group/titles)
+[CGI](https://www.eai.org/artists/ctg-computer-technique-group/titles)
+
+Noise 
+
+### Lesson 11 (26/01/2022)
+
+Cellular noise
+
 [Len Lye](https://en.wikipedia.org/wiki/Len_Lye)
 
 [Vimeo collection](https://vimeo.com/revoir)
 
 [article on glasstire](https://glasstire.com/2020/09/26/on-video-abstract-animation/)
 
-Noise and Cellular noise
-
-### Lesson 11 (26/01/2022)
-
-[CGT](https://ubu.com/film/ctg_computer.html)
 
 Feedback buffer
 
