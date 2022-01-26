@@ -58,10 +58,14 @@ void main(){
     // now we use min_dist to color the pixel.
     color += min_dist;
 
+    // Exercises:
     // Try to add more points. What happens? is your code slower or faster?
-    // hint, click on the isobar icon on the bottom of the canvas
+    // hint, click on the isobar icon on the bottom of the canvas to see the performance
 
     // try to use u_time to animate the points
+    // can you think about using an SDF insteaf of float dist = distance(st, point[i]); ?
+
+
 
     
     gl_FragColor = vec4(color, 1.0);

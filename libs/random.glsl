@@ -43,6 +43,11 @@ float random2(vec2 st){
     return -1.0 + 2.0 * fract( sin( dot( st.xy, vec2(12.9898,78.233) ) ) * 43758.5453123);
 }
 
+// 2d randome the book of shaders
+vec2 random2d( vec2 p ) {
+    return fract(sin(vec2(dot(p,vec2(127.1,311.7)),dot(p,vec2(269.5,183.3))))*43758.5453);
+}
+
 // Gradient Noise by Inigo Quilez - iq/2013
 // https://www.shadertoy.com/view/lsf3WH
 float gnoise(vec2 st) {
