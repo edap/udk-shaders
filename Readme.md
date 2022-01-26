@@ -111,11 +111,16 @@ Noise
 Cellular noise
 
 [Len Lye](https://en.wikipedia.org/wiki/Len_Lye)
+[Len Lye free radicals](https://www.youtube.com/watch?v=LpAOHBHxaSM)
 
 [Vimeo collection](https://vimeo.com/revoir)
 
 [article on glasstire](https://glasstire.com/2020/09/26/on-video-abstract-animation/)
 
+Watched in class: "Rhytm", "Swinging the Lambeth Walk"
+
+
+[Yayoi Kusama - "Kusama's Self Obliteration" (1967)](https://www.youtube.com/watch?v=Fb2P8DwbxTM)
 
 Feedback buffer
 
