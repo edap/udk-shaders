@@ -34,7 +34,7 @@ void main() {
     old*= 0.99;
 
     // Exrcises:
-    // 1 can you think to another way to animate your sketc
+    // 1 can you think to another way to animate your sketch
     float cir = circle(noisedSt -vec2(0.5), 0.2);
     vec4 new = vec4(vec3(cir), 1.0);
     gl_FragColor = new+old;

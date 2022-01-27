@@ -23,6 +23,8 @@ On linux, control shift p. Launch the gsls-canvas, then set a custom shortuct. I
 
 [Shadertoy](http://www.shadertoy.com/)
 
+[Adam Ferris p5js shader examples](https://github.com/aferriss/p5jsShaderExamples)
+
 ### Lesson 1 (27/10/2021)
 
 John Whitney
