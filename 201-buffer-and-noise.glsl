@@ -28,16 +28,23 @@ void main() {
 #ifdef BUFFER_0
     // let's sample the buffer 1 using noise to offset the sampler
     vec2 noisedSt = st;
-    noisedSt.x += noise(vec2(st.x, st.y+cos(u_time * 0.1))) * 0.01;
+    noisedSt += noise(
+        vec2(
+            st.x+sin(u_time * 0.1) * 2.0,
+            st.y+cos(u_time * 0.1)
+        )
+    ) * 0.01;
+
 
     vec4 old = texture2D(u_buffer1,noisedSt);
-    // depending on how much your graphic card is, the circle will
+    // depending on how many frame per seconds you have, the circle will
     // tend to disappear. Try to change this value between 0.9 and 0.99
     old*= 0.96;
 
     // Exrcises:
     // 1 can you think to another way to animate your sketch
     float cir = circle(noisedSt -vec2(0.5), 0.2);
+    cir = stroke(cir, 0.01, 0.002);
     vec4 new = vec4(vec3(cir), 1.0);
     gl_FragColor = new+old;
 
