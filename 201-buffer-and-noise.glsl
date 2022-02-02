@@ -31,7 +31,9 @@ void main() {
     noisedSt.x += noise(vec2(st.x, st.y+cos(u_time * 0.1))) * 0.01;
 
     vec4 old = texture2D(u_buffer1,noisedSt);
-    old*= 0.99;
+    // depending on how much your graphic card is, the circle will
+    // tend to disappear. Try to change this value between 0.9 and 0.99
+    old*= 0.96;
 
     // Exrcises:
     // 1 can you think to another way to animate your sketch
