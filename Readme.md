@@ -88,7 +88,7 @@ Kernel convolutions. Files 08*.
 
 ### Lesson 9 (12/01/2022)
 
-Random. Intro to Pixelspirit and its library.
+Random. Intro to [Pixelspirit](https://github.com/patriciogonzalezvivo/PixelSpiritDeck) and its library.
 
 Intro to Norman McLaren
 
