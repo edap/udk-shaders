@@ -1,14 +1,11 @@
 ## Intro
 
 The files from 00.glsl to 08.glsl are just the transcript of this [live conding session](https://www.youtube.com/watch?v=s6t0mJsgUKw) by Rémi Papillié.
-The other files use the previous one as basis and add some other things, like ambient occlusion, shadow, etc...
-At the end the Mercury Library is introduced.
 
-These are the references that I've checked while working at it:
+
+Some references:
 
 [Íñigo Quílez website](http://iquilezles.org/www/articles/distfunctions/distfunctions.htm)
-
-[live conding by Rémi Papillié](https://www.youtube.com/watch?v=s6t0mJsgUKw)
 
 [9bitscience](http://9bitscience.blogspot.de/2013/07/raymarching-distance-fields_14.html)
 
@@ -20,8 +17,6 @@ Other resources:
 
 [Ray Marching workshop](https://github.com/ajweeks/RaymarchingWorkshop)
 
-
-You can run each file in Visual Studio Code + [Shader Toy extension](https://marketplace.visualstudio.com/items?itemName=stevensona.shader-toy). After the extension is installed, go to View -> Command Palette -> shoew glsl preview
 
 ## Files
 
