@@ -128,11 +128,11 @@ Feedback buffer
 
 ### Lesson 12 (02/02/2022)
 
-Fractals
+Feedback buffer 2
 
 ### Lesson 13 (09/02/2022)
 
-Reaction diffusion or cellular automata
+Wesbite
 
 ### Lesson (16/02/2022)
 
